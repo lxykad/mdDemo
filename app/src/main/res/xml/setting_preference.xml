@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="控制">
+
+        <CheckBoxPreference
+            android:id="@+id/cb_theme"
+            android:title="每日自动更换主题" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="更多">
+
+        <Preference
+            android:summary="练习"
+            android:title="作者:小刘哥" />
+        <Preference
+            android:summary="1.0"
+            android:title="版本号" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

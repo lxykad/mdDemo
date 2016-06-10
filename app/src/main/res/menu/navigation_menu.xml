@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/g"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="页面1" />
+        <item
+            android:id="@+id/item2"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="页面2" />
+        <item
+            android:id="@+id/item_night"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="夜间模式" />
+        <item
+            android:id="@+id/item_setting"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="设置" />
+
+    </group>
+
+</menu>
