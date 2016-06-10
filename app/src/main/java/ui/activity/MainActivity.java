@@ -1,7 +1,9 @@
-package example.user.mddemo;
+package ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import example.user.mddemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
